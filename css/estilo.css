@@ -1,0 +1,27 @@
+
+#footer{
+    background: black;
+}
+
+#copyright{
+    background-color: #fe70bd;
+}
+
+#estilo-footer{
+    position: relative;
+    left: 350px;
+    text-align: justify;
+}
+
+a.text-white {
+    text-decoration: none;
+}
+
+
+.img-logo{
+    width: 70%;
+    height:auto;
+    border-radius: 50%;
+    position: relative;
+    bottom: 10px;
+}
