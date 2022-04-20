@@ -1,10 +1,12 @@
 
 #footer{
-    background: black;
+    background: green;
 }
 
 #copyright{
-    background-color: #fe70bd;
+    background-color: white;
+	color:black;
+	
 }
 
 #estilo-footer{
@@ -13,7 +15,7 @@
     text-align: justify;
 }
 
-a.text-white {
+a.text-dark {
     text-decoration: none;
 }
 
@@ -24,4 +26,82 @@ a.text-white {
     border-radius: 50%;
     position: relative;
     bottom: 10px;
+}
+
+/*CSS Calculadora*/
+
+
+#mensagem-erros{
+	color: red;
+	font-weight: bold;
+}
+
+.esmaecer {
+	transition: 3.5s;
+	opacity: 0;
+}
+
+
+label{
+	font-weight: bold;
+	color: black;
+}
+
+.desaparece {
+	display:none;
+}
+
+span1 {
+	position:relative;
+	left: 55px;
+}
+
+#medio-peso{
+	color: green;
+}
+
+#baixo-peso{
+	color: orange;
+}
+
+#sobrepeso{
+	color: red;
+}
+
+#obesidade{
+	color: darkred;
+	font-weight: bold;
+}
+
+#resultado{
+	position: relative;
+	bottom: 25px;
+	left: 270px;
+	font-size: 50px;
+	color: blue;
+}
+
+.grupo{
+	width: 32%;
+	display: inline-block;
+	padding: 10px 0px;
+}
+
+.campo{
+	margin: 0;
+	padding-bottom: 1em;
+	width: 100%;
+	border: 1px solid #ccc;
+	padding: .7em;
+	width: 100%;
+}
+
+label{
+	color: #555;
+	display: block;
+	margin-bottom: .2em;
+}
+
+a.text-white{ 
+	text-decoration: none;
 }
