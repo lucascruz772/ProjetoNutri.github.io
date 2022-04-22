@@ -1,7 +1,8 @@
 
 #footer{
     background: green;
-}
+	position: absolute;
+	}
 
 #copyright{
     background-color: white;
@@ -105,3 +106,4 @@ label{
 a.text-white{ 
 	text-decoration: none;
 }
+
