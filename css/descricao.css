@@ -1,0 +1,88 @@
+.box-descricao{
+    background-color: rgb(255, 255, 255);
+}
+
+div {
+    width: 100%;
+    display: inline-block;
+}
+
+#text1{
+    
+    margin: 15px;
+    margin-left: 80px;
+    padding: 30px 10px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+    color: green;
+    float: left;
+    width: 33.3%;
+    height: 240px;
+}
+#text2{
+    margin: 15px;
+    margin-right: 80px;
+    padding: 30px 10px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+    color: green;
+    float: right;
+    width: 33.3%;
+    height: 240px;
+}
+#text3{
+    margin: 15px;
+    margin-left: 80px;
+    padding: 30px 10px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+    color: green;
+    float: left;
+    width: 33.3%;
+    height: 240px;
+}
+#text4{
+    margin: 15px;
+    margin-right: 80px;
+    padding: 30px 10px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+    color: green;
+    float: right;
+    width: 33.3%;
+    height: 240px;
+}
+#text5{
+    margin: 15px;
+    margin-left: 80px;
+    padding: 30px 10px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+    color: green;
+    float: left;
+    width: 33.3%;
+    height: 240px;
+}
+#text6{
+    margin: 15px;
+    margin-right: 80px;
+    padding: 30px 10px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+    color: green;
+    float: right;
+    width: 33.3%;
+    height: 240px;
+}
+
+.paragrafo{
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+.imagem-frutas{
+    float: right;
+    width: 20%;
+}
