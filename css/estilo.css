@@ -1,32 +1,6 @@
 
-#footer{
-    background: green;
-	position: absolute;
-	}
-
-#copyright{
-    background-color: white;
-	color:black;
-	
-}
-
-#estilo-footer{
-    position: relative;
-    left: 350px;
-    text-align: justify;
-}
-
-a.text-dark {
-    text-decoration: none;
-}
-
-
-.img-logo{
-    width: 70%;
-    height:auto;
-    border-radius: 50%;
-    position: relative;
-    bottom: 10px;
+.background-page {
+	background: linear-gradient(rgb(136, 202, 136), rgb(78, 209, 78)) ;
 }
 
 /*CSS Calculadora*/
@@ -54,15 +28,25 @@ label{
 
 span1 {
 	position:relative;
-	left: 55px;
+	left: 10%;
+	bottom: 50px;
+}
+
+#resultado{
+	position: relative;
+	bottom: 40px;
+	left: 50px;
+	font-size: 50px;
+	color: blue;
 }
 
 #medio-peso{
-	color: green;
+	color: lightgreen;
+	font-weight: bold;
 }
 
 #baixo-peso{
-	color: orange;
+	color: white;
 }
 
 #sobrepeso{
@@ -72,14 +56,6 @@ span1 {
 #obesidade{
 	color: darkred;
 	font-weight: bold;
-}
-
-#resultado{
-	position: relative;
-	bottom: 25px;
-	left: 270px;
-	font-size: 50px;
-	color: blue;
 }
 
 .grupo{
@@ -107,3 +83,62 @@ a.text-white{
 	text-decoration: none;
 }
 
+#beacons:hover{
+	font-style:italic ;
+	text-decoration:underline ;
+}
+
+.calcular{
+	border: 1px solid #000000;
+	width: 50%;
+	position: relative;
+	left: 25%;
+}
+
+/*Contato*/
+.feature{
+	text-decoration: none;
+	color:black;
+}
+
+.feature:hover{
+	cursor:auto;
+	color:black;
+}
+
+.feature > h2{
+	font-family: 'Dancing Script', cursive;
+}
+
+#featured-3 > h2{
+	font-family: 'Dancing Script', cursive;
+}
+
+.feature > p {
+	font-family: 'Pacifico', cursive;
+}
+
+/*Footer*/
+#copyright{
+    background-color: white;
+	color:black;	
+}
+
+#estilo-footer{
+    position: relative;
+    left: 350px;
+    text-align: justify;
+}
+
+a.text-dark {
+    text-decoration: none;
+}
+
+
+.img-logo{
+    width: 70%;
+    height:auto;
+    border-radius: 50%;
+    position: relative;
+    bottom: 10px;
+}
