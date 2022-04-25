@@ -41,7 +41,7 @@
         <section class="container">
             <h2 id="titulo-form">Calcule o seu IMC</h2>
             <span id="mensagem-erros"></span>
-            <form id="form-calcula">
+            <form id="form-calcula" method="dialog">
                 <div class="grupo">
                     <label for="nome">Nome:</label>
                     <input id="nome" name="nome" type="text" placeholder="digite seu nome"
@@ -62,7 +62,7 @@
                     <input id="gordura" type="text" placeholder="digite a sua porcentagem de gordura"
                         class="campo campo-medio" />
                 </div>
-                <button type="submit" id="calcular-imc" class="botao bto-principal" value="Enviar">
+                <button id="calcular-imc" class="botao bto-principal" value="Enviar">
                     Calcular
                 </button>
                 <div>
