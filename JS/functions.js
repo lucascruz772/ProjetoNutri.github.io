@@ -70,6 +70,7 @@ function dadosPacientes(form) {
     //form.reset();
     var erro = document.querySelector("#mensagem-erros");
     erro.innerHTML = "";
+    event.preventDefault();
   });
   
   
