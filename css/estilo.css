@@ -3,8 +3,71 @@
 	background: linear-gradient(rgb(136, 202, 136), rgb(78, 209, 78)) ;
 }
 
-/*CSS Calculadora*/
+/*Img-apresentação*/
+.apresentacao{
+	background-color: lightgreen;
+	margin-top: 100px;
+}
 
+.img-apresentacao{
+	border-radius: 50%;
+	width: 30%;
+	position: relative;
+	left: 65%;
+}
+
+.background-apresentacao{
+	background-image: url(../img/frutas.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0px;
+    left: -15px;
+    right: 400px;
+    bottom: 0px;
+    opacity: 0.1;
+}
+/*box*/
+
+.botao-apresentacao{
+	position: relative;
+	top: 50px;
+	left: 420px;
+}
+
+.card1 {
+	background-image: url("../img/frutas-card.png");
+	background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    opacity: 0.1;
+}
+
+.card2 {
+	background-image: url("../img/frutas-card2.png");
+	background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    opacity: 0.1;
+}
+
+.col > .card {
+	border-radius: 1rem;
+}
+
+.h-100 > p {
+	color: #fde8b3;
+	font-size: 30px;
+}
+/*CSS Calculadora*/
 
 #mensagem-erros{
 	color: red;
@@ -94,6 +157,19 @@ a.text-white{
 	width: 50%;
 	position: relative;
 	left: 25%;
+	top: 60px;
+	margin-bottom: 100px;
+	margin-top: 50px;
+}
+
+/*Box*/
+
+.box{
+	width: 200px;
+}
+
+.box > h2 {
+	font-family: 'Dancing Script', cursive;
 }
 
 /*Contato*/
