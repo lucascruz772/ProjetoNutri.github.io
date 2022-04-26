@@ -1,4 +1,33 @@
+.topicos{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.titulo{
+    margin: 15px;
+    padding: 30px 10px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+    color: green;
+    width: 33.3%;
+}
+
+.titulo1{
+    margin: 15px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 35px;
+    color: green;
+    width: 33.3%;
+}
+
+.paragrafo{
+    margin-top: 20px;
+    font-family: 'Amaranth', sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+
 .salada{
+    position: relative; bottom: 60px;
     float: right;
-    width: 20%;
+    width: 45%;
 }
