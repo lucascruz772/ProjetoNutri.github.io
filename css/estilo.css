@@ -41,8 +41,6 @@
 
 /*box*/
 
-
-
 .card1 {
 	background-image: url("../img/frutas-card.png");
 	background-size: cover;
@@ -52,7 +50,7 @@
     left: 0px;
     right: 0px;
     bottom: 0px;
-    opacity: 0.1;
+    opacity: 0.15;
 }
 
 .card2 {
@@ -64,7 +62,7 @@
     left: 0px;
     right: 0px;
     bottom: 0px;
-    opacity: 0.1;
+    opacity: 0.15;
 }
 
 .card3 {
@@ -76,20 +74,54 @@
     left: 0px;
     right: 0px;
     bottom: 0px;
-    opacity: 0.1;
+    opacity: 0.15;
 }
 
 .col > .card {
 	border-radius: 1rem;
 }
 
-.h-100 > p {
+.h-100 > .p1 {
 	color: #fde8b3;
 	font-size: 30px;
 	font-family: 'Quicksand', sans-serif;
-	font-size: 25px;
+	text-align: left;
 }
+
+.h-100 > p {
+	color: #fde8b3;
+	font-size: 18px;
+	font-family: 'Quicksand', sans-serif;
+	text-align: left;
+	z-index: 2;
+}
+
+.d-flex:hover .fw-bold {
+	color:#ffee75;
+}
+
+.row-cols-lg-3 > .cont{
+	height: 550px!important;
+	width: 300px;
+	margin-left: 20px;
+}
+
+.py-5 > .cont{
+	position: relative;
+	left: 150px;
+}
+
 /*CSS Calculadora*/
+
+.tit{
+	font-family: 'Square Peg', cursive;
+	font-size: 50px;
+	color: #ffee75;
+}
+
+#titulo-form{
+	font-family: 'Dancing Script', cursive;
+}
 
 #mensagem-erros{
 	color: red;
@@ -181,7 +213,6 @@ a.text-white{
 	left: 25%;
 	top: 60px;
 	margin-bottom: 100px;
-	margin-top: 50px;
 }
 
 /*Box*/
@@ -195,6 +226,17 @@ a.text-white{
 }
 
 /*Contato*/
+
+.titulo-contato{
+	font-family: 'Dancing Script', cursive;
+}
+
+.paragrafo-contato{
+	width: 20%;
+	position: relative;
+	left: 39%;
+}
+
 .feature{
 	text-decoration: none;
 	color:black;
@@ -206,7 +248,7 @@ a.text-white{
 }
 
 .text-center > .row {
-	margin-right: calc(var(--bs-gutter-x) * 0.5);
+	margin-right: calc(var(--bs-gutter-x) * 1.5);
 }
 
 .feature > h2{

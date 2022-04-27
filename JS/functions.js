@@ -3,7 +3,6 @@ function dadosPacientes(form) {
       nome: form.nome.value,
       peso: form.peso.value,
       altura: form.altura.value,
-      gordura: form.gordura.value,
       imc: calculaImc(form.peso.value, form.altura.value),
     };
     return paciente;
@@ -82,9 +81,6 @@ function dadosPacientes(form) {
       erros.push("Digite um nome com pelo menos 3 letras");
   
     if (!validaPeso(paciente.peso)) erros.push("Peso é invalido");
-  
-    if (paciente.gordura == 0 || paciente.gordura.length >= 3)
-      erros.push("Digite uma % de gordura válida");
   
     if (!validaAltura(paciente.altura)) erros.push("Altura é invalido");
   
