@@ -27,13 +27,21 @@
     bottom: 0px;
     opacity: 0.1;
 }
-/*box*/
 
 .botao-apresentacao{
 	position: relative;
 	top: 50px;
-	left: 420px;
+	left: 320px;
 }
+
+.fw-normal{
+	position: relative;
+	left:320px;
+}
+
+/*box*/
+
+
 
 .card1 {
 	background-image: url("../img/frutas-card.png");
@@ -59,6 +67,18 @@
     opacity: 0.1;
 }
 
+.card3 {
+	background-image: url("../img/frutas-card3.png");
+	background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    opacity: 0.1;
+}
+
 .col > .card {
 	border-radius: 1rem;
 }
@@ -66,6 +86,8 @@
 .h-100 > p {
 	color: #fde8b3;
 	font-size: 30px;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 25px;
 }
 /*CSS Calculadora*/
 
@@ -181,6 +203,10 @@ a.text-white{
 .feature:hover{
 	cursor:auto;
 	color:black;
+}
+
+.text-center > .row {
+	margin-right: calc(var(--bs-gutter-x) * 0.5);
 }
 
 .feature > h2{
