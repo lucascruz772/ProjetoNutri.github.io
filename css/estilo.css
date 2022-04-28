@@ -1,301 +1,348 @@
+@media only screen and (max-device-width: 600px) {
+  head {
+    width: auto;
+  }
+  section {
+    width: auto;
+  }
+  body {
+    width: auto;
+  }
+}
 
 .background-page {
-	background: linear-gradient(rgb(136, 202, 136), rgb(78, 209, 78)) ;
+  background: linear-gradient(rgb(136, 202, 136), rgb(78, 209, 78));
 }
 
 /*Img-apresentação*/
-.apresentacao{
-	background-color: lightgreen;
-	margin-top: 100px;
+.apresentacao {
+  background-color: lightgreen;
+  margin-top: 100px;
 }
 
-.img-apresentacao{
-	border-radius: 50%;
-	width: 30%;
-	position: relative;
-	left: 65%;
+.img-apresentacao {
+  border-radius: 50%;
+  width: 30%;
+  position: relative;
+  left: 65%;
 }
 
-.background-apresentacao{
-	background-image: url(../img/frutas.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    position: absolute;
-    top: 0px;
-    left: -15px;
-    right: 400px;
-    bottom: 0px;
-    opacity: 0.1;
+.background-apresentacao {
+  background-image: url(../img/frutas.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0px;
+  left: -15px;
+  right: 400px;
+  bottom: 0px;
+  opacity: 0.1;
 }
 
-.botao-apresentacao{
-	position: relative;
-	top: 50px;
-	left: 320px;
+.botao-apresentacao {
+  position: relative;
+  top: 50px;
+  left: 320px;
 }
 
-.fw-normal{
-	position: relative;
-	left:320px;
+.fw-normal {
+  position: relative;
+  left: 320px;
 }
 
 /*box*/
 
 .card1 {
-	background-image: url("../img/frutas-card.png");
-	background-size: cover;
-    background-repeat: no-repeat;
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    right: 0px;
-    bottom: 0px;
-    opacity: 0.15;
+  background-image: url("../img/frutas-card.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  opacity: 0.15;
 }
 
 .card2 {
-	background-image: url("../img/frutas-card2.png");
-	background-size: cover;
-    background-repeat: no-repeat;
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    right: 0px;
-    bottom: 0px;
-    opacity: 0.15;
+  background-image: url("../img/frutas-card2.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  opacity: 0.15;
 }
 
 .card3 {
-	background-image: url("../img/frutas-card3.png");
-	background-size: cover;
-    background-repeat: no-repeat;
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    right: 0px;
-    bottom: 0px;
-    opacity: 0.15;
+  background-image: url("../img/frutas-card3.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  opacity: 0.15;
 }
 
 .col > .card {
-	border-radius: 1rem;
+  border-radius: 1rem;
 }
 
 .h-100 > .p1 {
-	color: #fde8b3;
-	font-size: 30px;
-	font-family: 'Quicksand', sans-serif;
-	text-align: left;
+  color: #fde8b3;
+  font-size: 30px;
+  font-family: "Quicksand", sans-serif;
+  text-align: left;
 }
 
 .h-100 > p {
-	color: #fde8b3;
-	font-size: 18px;
-	font-family: 'Quicksand', sans-serif;
-	text-align: left;
-	z-index: 2;
+  color: #fde8b3;
+  font-size: 18px;
+  font-family: "Quicksand", sans-serif;
+  text-align: left;
+  z-index: 2;
 }
 
 .d-flex:hover .fw-bold {
-	color:#ffee75;
+  color: #ffee75;
 }
 
-.row-cols-lg-3 > .cont{
-	height: 550px!important;
-	width: 300px;
-	margin-left: 20px;
+.row-cols-lg-3 > .cont {
+  height: 550px !important;
+  width: 300px;
+  margin-left: 20px;
 }
 
-.py-5 > .cont{
-	position: relative;
-	left: 150px;
+.py-5 > .cont {
+  position: relative;
+  left: 150px;
+}
+
+/*Resumo de carreira*/
+#foto {
+  width: 30%;
+  border: 4px solid green;
+  box-shadow: -16px 4px 23px 3px #000000;
+}
+
+#apt {
+  margin: 50px 150px 50px 150px;
+  padding-bottom: 130px;
+}
+
+#apt-ele{
+	border: none;
+}
+
+.card-text:last-child {
+    margin-bottom: 0;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.card-body{
+	background-color: #75cd75;
+}
+
+#tit-apt{
+	font-family: "Dancing Script", cursive;
+	font-size: 30px;
+	color: #fde8b3;
+}
+
+#nome-apt{
+	font-family: "Dancing Script", cursive;
+	font-size: 40px;
+	color: green;
+	padding-bottom: 30px;
 }
 
 /*CSS Calculadora*/
 
-.tit{
-	font-family: 'Square Peg', cursive;
-	font-size: 50px;
-	color: #ffee75;
+.tit {
+  font-family: "Square Peg", cursive;
+  font-size: 50px;
+  color: #ffee75;
 }
 
-#titulo-form{
-	font-family: 'Dancing Script', cursive;
+#titulo-form {
+  font-family: "Dancing Script", cursive;
 }
 
-#mensagem-erros{
-	color: red;
-	font-weight: bold;
+#mensagem-erros {
+  color: red;
+  font-weight: bold;
 }
 
 .esmaecer {
-	transition: 3.5s;
-	opacity: 0;
+  transition: 3.5s;
+  opacity: 0;
 }
 
-
-label{
-	font-weight: bold;
-	color: black;
+label {
+  font-weight: bold;
+  color: black;
 }
 
 .desaparece {
-	display:none;
+  display: none;
 }
 
 span1 {
-	position:relative;
-	left: 10%;
-	bottom: 50px;
-	background-color: white;
+  position: relative;
+  left: 10%;
+  bottom: 50px;
+  background-color: white;
 }
 
-#resultado{
-	position: relative;
-	bottom: 40px;
-	left: 50px;
-	font-size: 50px;
-	color: blue;
+#resultado {
+  position: relative;
+  bottom: 40px;
+  left: 50px;
+  font-size: 50px;
+  color: blue;
 }
 
-#medio-peso{
-	color: lightgreen;
-	font-weight: bold;
+#medio-peso {
+  color: lightgreen;
+  font-weight: bold;
 }
 
-#baixo-peso{
-	color: white;
+#baixo-peso {
+  color: white;
 }
 
-#sobrepeso{
-	color: red;
+#sobrepeso {
+  color: red;
 }
 
-#obesidade{
-	color: darkred;
-	font-weight: bold;
+#obesidade {
+  color: darkred;
+  font-weight: bold;
 }
 
-.grupo{
-	width: 32%;
-	display: inline-block;
-	padding: 10px 0px;
+.grupo {
+  width: 32%;
+  display: inline-block;
+  padding: 10px 0px;
 }
 
-.campo{
-	margin: 0;
-	padding-bottom: 1em;
-	width: 100%;
-	border: 1px solid #ccc;
-	padding: .7em;
-	width: 100%;
+.campo {
+  margin: 0;
+  padding-bottom: 1em;
+  width: 100%;
+  border: 1px solid #ccc;
+  padding: 0.7em;
+  width: 100%;
 }
 
-label{
-	color: #555;
-	display: block;
-	margin-bottom: .2em;
+label {
+  color: #555;
+  display: block;
+  margin-bottom: 0.2em;
 }
 
-a.text-white{ 
-	text-decoration: none;
+a.text-white {
+  text-decoration: none;
 }
 
-#beacons:hover{
-	font-style:italic ;
-	text-decoration:underline ;
+#beacons:hover {
+  font-style: italic;
+  text-decoration: underline;
 }
 
-.calcular{
-	border: 1px solid #000000;
-	width: 50%;
-	position: relative;
-	left: 25%;
-	top: 60px;
-	margin-bottom: 100px;
+.calcular {
+  border: 1px solid #000000;
+  width: 50%;
+  position: relative;
+  left: 25%;
+  top: 60px;
+  margin-bottom: 100px;
 }
 
 /*Box*/
 
-.box{
-	width: 200px;
+.box {
+  width: 200px;
 }
 
 .box > h2 {
-	font-family: 'Dancing Script', cursive;
+  font-family: "Dancing Script", cursive;
 }
 
 /*Contato*/
 
-.titulo-contato{
-	font-family: 'Dancing Script', cursive;
+.titulo-contato {
+  font-family: "Dancing Script", cursive;
 }
 
-.paragrafo-contato{
-	width: 20%;
-	position: relative;
-	left: 39%;
+.paragrafo-contato {
+  width: 20%;
+  position: relative;
+  left: 39%;
 }
 
-.feature{
-	text-decoration: none;
-	color:black;
+.feature {
+  text-decoration: none;
+  color: black;
 }
 
-.feature:hover{
-	cursor:auto;
-	color:black;
+.feature:hover {
+  cursor: auto;
+  color: black;
 }
 
 .text-center > .row {
-	margin-right: calc(var(--bs-gutter-x) * 1.5);
+  margin-right: calc(var(--bs-gutter-x) * 1.5);
 }
 
-.feature > h2{
-	font-family: 'Dancing Script', cursive;
+.feature > h2 {
+  font-family: "Dancing Script", cursive;
 }
 
 #featured-3 {
-	justify-content: center;
-	align-items: center;
-
+  justify-content: center;
+  align-items: center;
 }
 
-#featured-3 > h2{
-	font-family: 'Dancing Script', cursive;
+#featured-3 > h2 {
+  font-family: "Dancing Script", cursive;
 }
 
 .border-bottom {
-	width: 50%;
-	position: relative;
-	left: 24%;
+  width: 50%;
+  position: relative;
+  left: 24%;
 }
 
 .feature > p {
-	font-family: 'Pacifico', cursive;
+  font-family: "Pacifico", cursive;
 }
 
 /*Footer*/
-#copyright{
-    background-color: white;
-	color:black;	
+#copyright {
+  background-color: white;
+  color: black;
 }
 
-#estilo-footer{
-    position: relative;
-    left: 350px;
-    text-align: justify;
+#estilo-footer {
+  position: relative;
+  left: 350px;
+  text-align: justify;
 }
 
 a.text-dark {
-    text-decoration: none;
+  text-decoration: none;
 }
 
-
-.img-logo{
-    width: 70%;
-    height:auto;
-    border-radius: 50%;
-    position: relative;
-    bottom: 10px;
+.img-logo {
+  width: 70%;
+  height: auto;
+  border-radius: 50%;
+  position: relative;
+  bottom: 10px;
 }
