@@ -1,6 +1,5 @@
 function dadosPacientes(form) {
     var paciente = {
-      nome: form.nome.value,
       peso: form.peso.value,
       altura: form.altura.value,
       imc: calculaImc(form.peso.value, form.altura.value),
@@ -29,10 +28,9 @@ function dadosPacientes(form) {
       exibeMensagensdeErro(erros);
       return;
     } else {
-      document.getElementById("resultado").innerHTML = paciente.imc;
+      document.getElementById("resultado").innerHTML = paciente.imc, paciente.nome;
     }
-  
-  
+    
     if (paciente.imc < 18.5){
       var elemento = document.getElementById("baixo-peso");
       elemento.classList.remove("desaparece");
@@ -76,9 +74,6 @@ function dadosPacientes(form) {
   //erros
   function validaPaciente(paciente) {
     var erros = [];
-  
-    if (paciente.nome.length < 3)
-      erros.push("Digite um nome com pelo menos 3 letras");
   
     if (!validaPeso(paciente.peso)) erros.push("Peso é invalido");
   

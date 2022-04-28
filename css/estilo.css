@@ -39,15 +39,17 @@
   opacity: 0.1;
 }
 
-.botao-apresentacao {
-  position: relative;
-  top: 50px;
-  left: 320px;
+.botao-apresentacao1 {
+  left: 64%;
 }
 
 .fw-normal {
   position: relative;
   left: 320px;
+}
+
+.lead{
+	margin-top: 20px;
 }
 
 /*box*/
@@ -213,7 +215,7 @@ span1 {
 }
 
 #baixo-peso {
-  color: white;
+  color: orange;
 }
 
 #sobrepeso {
@@ -223,6 +225,14 @@ span1 {
 #obesidade {
   color: darkred;
   font-weight: bold;
+  background-color: none;
+  position: relative;
+	left: 35%;
+	top: 30%;
+}
+
+#obesidade {
+	
 }
 
 .grupo {
@@ -245,16 +255,7 @@ label {
   display: block;
   margin-bottom: 0.2em;
 }
-
-a.text-white {
-  text-decoration: none;
-}
-
-#beacons:hover {
-  font-style: italic;
-  text-decoration: underline;
-}
-
+  
 .calcular {
   border: 1px solid #000000;
   width: 50%;
@@ -346,3 +347,11 @@ a.text-dark {
   position: relative;
   bottom: 10px;
 }
+
+a.text-white {
+	text-decoration: none;
+  }
+  #beacons:hover {
+	  font-style: italic;
+	  text-decoration: underline;
+	}
