@@ -7,6 +7,12 @@ div > .box-descricao {
     display: inline-block;
 }
 
+.box-descricao > h2{
+    font-family: 'Dancing Script', cursive;
+    color: #ffee75;
+    font-size: 350%;
+}
+
 #text1{
     margin: 15px;
     margin-left: 80px;

@@ -16,8 +16,9 @@
 
 /*Img-apresentação*/
 .apresentacao {
-  background-color: lightgreen;
+  background-color: #9beca0;
   margin-top: 100px;
+  opacity: 0.9;
 }
 
 .img-apresentacao {
@@ -25,6 +26,7 @@
   width: 30%;
   position: relative;
   left: 65%;
+  
 }
 
 .background-apresentacao {
@@ -185,6 +187,10 @@
   opacity: 0;
 }
 
+.cal{
+  margin-top: -25px;
+}
+
 label {
   font-weight: bold;
   color: black;
@@ -196,43 +202,61 @@ label {
 
 span1 {
   position: relative;
-  left: 10%;
-  bottom: 50px;
-  background-color: white;
+  right: 5%;
+  bottom: 10%;
+}
+
+.la-resul{
+    background: darkgreen;
+    color: #fff;
+    font-size: 22px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    width: 200px;
+    margin: 40px 0;
 }
 
 #resultado {
-  position: relative;
-  bottom: 40px;
-  left: 50px;
-  font-size: 50px;
-  color: blue;
+    position: relative;
+    bottom: -1px;
+    left: -86px;
+    font-size: 26px;
+    color: yellow;;
 }
 
 #medio-peso {
-  color: lightgreen;
+  font-weight: bold;
+  font-family: 'Ms Madi', cursive;
+  font-size: 150%;
   font-weight: bold;
 }
 
 #baixo-peso {
-  color: orange;
+  font-family: 'Ms Madi', cursive;
+  font-size: 150%;
+  font-weight: bold;
 }
 
 #sobrepeso {
-  color: red;
+  font-family: 'Ms Madi', cursive;
+  font-size: 150%;
+  font-weight: bold;
 }
 
-#obesidade {
-  color: darkred;
+#obesidade > p{
+  color: rgb(5, 14, 141);
   font-weight: bold;
   background-color: none;
   position: relative;
-	left: 35%;
+	left: 30%;
 	top: 30%;
+  font-family: 'Ms Madi', cursive;
+  font-size: 150%;
+  font-weight: bold;
 }
 
-#obesidade {
-	
+#botao-resultado {
+  margin-left: 30%;
 }
 
 .grupo {
@@ -275,7 +299,16 @@ label {
   font-family: "Dancing Script", cursive;
 }
 
+/*Antes do contato*/
+
+.display-4{
+  font-family: "Dancing Script", cursive;
+} 
 /*Contato*/
+
+#contato {
+  background-color: green;
+}
 
 .titulo-contato {
   font-family: "Dancing Script", cursive;
@@ -323,6 +356,7 @@ label {
 .feature > p {
   font-family: "Pacifico", cursive;
 }
+
 
 /*Footer*/
 #copyright {

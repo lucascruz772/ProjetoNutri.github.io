@@ -1,6 +1,7 @@
 .topicos{
     margin-top: 10px;
     margin-bottom: 10px;
+    background: rgb(5, 180, 5);
 }
 .titulo{
     margin: 15px;
@@ -27,7 +28,8 @@
 }
 
 .salada{
-    position: relative; bottom: 120px;
+    position: relative;
+    bottom: 165px;
     float: right;
-    width: 45%;
+    width: 27%;
 }

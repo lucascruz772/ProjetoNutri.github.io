@@ -30,6 +30,11 @@ function dadosPacientes(form) {
     } else {
       document.getElementById("resultado").innerHTML = paciente.imc, paciente.nome;
     }
+
+    if (paciente.imc > 0){
+      var elemento = document.getElementById("imc-calculado");
+      elemento.classList.remove("desaparece");
+    }
     
     if (paciente.imc < 18.5){
       var elemento = document.getElementById("baixo-peso");
