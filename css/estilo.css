@@ -303,6 +303,7 @@ label {
 
 .display-4{
   font-family: "Dancing Script", cursive;
+  color: #fde8b3;
 } 
 /*Contato*/
 
@@ -312,6 +313,7 @@ label {
 
 .titulo-contato {
   font-family: "Dancing Script", cursive;
+  color: #fde8b3;
 }
 
 .paragrafo-contato {
