@@ -1,0 +1,47 @@
+form {
+	margin: 40px 0;
+}
+
+label{
+    color: black;
+}
+
+.background-form{
+    background-image: url(../img/nutri.jpg);
+    width: 50%;
+    opacity: 0.4;
+    border-radius: 100px;
+    margin: 0 auto;
+}
+
+.faleConosco{
+    width: 400px;
+    margin: 0 auto;
+}
+
+.campo-dig {
+    margin: 10px;
+    font-size: 18px;
+    padding: 2px;
+}
+
+.faleConosco input{
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    outline: none;
+    background: transparent;
+}
+
+.titulo2{
+    font-size: 50px;
+    display: inline;
+    position: relative; left: 25%; bottom: 4px; 
+    font-family: 'Dancing Script', cursive;
+    color: #000;
+}
+

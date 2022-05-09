@@ -13,6 +13,7 @@
     <link href="css/layout.css" rel="stylesheet" />
     <link href="css/descricao.css" rel="stylesheet" />
     <link href="css/topicos.css" rel="stylesheet" />
+    <link href="css/form.css" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css2?family=Amaranth:ital@1&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
@@ -113,10 +114,10 @@
                             <span class="text-dark" >Ligia Vilhena </span>
                         </h3>
                         <p class="card-text text-center" id="text-apt">A Ligia Vilhena é nutricionista formada pela Universidade Federal
-                             de Minas Gerais (UFMG) apaixonada pela nutrição. Seu maior foco é apresentar a nutrição da vida 
-                             real, sem fórmula mágica e terrorismo nutricional. Respeitando as individualidades de cada 
-                             paciente, a fim de promover saúde e qualidade de vida. Sempre com responsabilidade e 
-                             baseada em evidência científica.</p>
+                            de Minas Gerais (UFMG) apaixonada pela nutrição. Seu maior foco é apresentar a nutrição da vida 
+                            real, sem fórmula mágica e terrorismo nutricional. Respeitando as individualidades de cada 
+                            paciente, a fim de promover saúde e qualidade de vida. Sempre com responsabilidade e 
+                            baseada em evidência científica.</p>
                     </div>
                 </div>
             </div>
@@ -233,6 +234,38 @@
                     função fisiológica.</p>
             </div>
         </div>
+
+    <div class="background-form">
+        <div class="faleConosco">
+            <h1 class="titulo2">Fale Conosco</h1>
+            <form>
+                    <div class="campo-dig">
+                <label for="nome">Nome</label>
+                <input type="text" id="nomesobrenome" class="input-padrao" required="">
+                    </div>
+
+                    <div class="campo-dig">
+				<label for="email">Email</label>
+                <input type="email" id="email" class="input-padrao" required="">
+                    </div>
+
+                    <div class="campo-dig">
+				<label for="telefone">Telefone</label>
+                <input type="tel" id="telefone" class="input-padrao" required="">
+                    </div>
+
+                    <div class="campo-dig">
+				<label for="mensagem">Mensagem</label>
+				<textarea cols="43" rows="4" id="mensagem" class="input-padrao" required=""></textarea>
+                    </div>
+
+                    <div>
+                <input  id="botao-consulta" type="submit" value="Enviar formulário" >
+                    </div>
+                </div>
+            </form>
+        </div>
+        
         <!--Contato-->
         <div class="contato" >
             <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center" id="contato">
